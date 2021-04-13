@@ -1,0 +1,17 @@
+# LaTeX Word Count
+
+LaTeX Word Count is a quick bash wordcount that uses texcount to count all .tex files in a given directory. The word count is then stored alongside the time the program is run and available to plot.
+
+## Installation
+
+## Usage
+`./wordcount.sh` counts all words in all .tex files under current directory. The values are then stored an plotted. Basic implementation has been included to prevent too many data points per day.
+
+Fun usage: add ./wordcount.sh to your git hook pre-commit file to keep a detailed progression of your project (i.e. thesis!)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
