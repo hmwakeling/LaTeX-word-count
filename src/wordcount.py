@@ -13,7 +13,7 @@ plt.rcParams.update({'figure.autolayout': True})
 # Fixing random state for reproducibility
 np.random.seed(137482457)
 
-my_file = open("wordcount.txt", "r")
+my_file = open("$PATH/wordcount.txt", "r")
 content_list = my_file.readlines()
 # print(content_list)
 
