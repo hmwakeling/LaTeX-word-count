@@ -1,9 +1,12 @@
 # LaTeX Word Count
+by H. M. Wakeling, inspired by S. Alden
 
 LaTeX Word Count is a quick bash wordcount that uses texcount to count all .tex files in a given directory. The word count is then stored alongside the time the program was run and the data points are available to plot.
 
 ## Requirements
 
+* `texcount` (https://app.uio.no/ifi/texcount/howto.html)
+* python3, matplotlib, numpy
 
 ## Installation
 Clone this 
