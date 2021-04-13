@@ -13,7 +13,7 @@ plt.rcParams.update({'figure.autolayout': True})
 # Fixing random state for reproducibility
 np.random.seed(137482457)
 
-my_file = open("$PATH/wordcount.txt", "r")
+my_file = open("../../wordcount.txt", "r")
 content_list = my_file.readlines()
 # print(content_list)
 
@@ -38,6 +38,6 @@ plt.title("Thesis Word Count", fontsize=20)
 plt.xlabel("Date", fontsize=15)
 plt.ylabel("Word Count", fontsize=15)
 plt.xticks(rotation=80)
-plt.savefig("wordcount.png")
+plt.savefig("../../wordcount.png")
 plt.show()
 plt.close()
